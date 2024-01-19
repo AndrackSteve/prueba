@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.input_agregar {
+    margin-bottom: 20px;
+}
+
+.anadirlista {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#form_mercado {
+    display: flex;
+}
+
+#producto {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 20px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 90px;
+    height: 35px;
+
+}
+
+button:hover{
+    background-color: #20c726;
+    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
+}
+
+.lista_al_momento {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#mercado {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#lista_mercado {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#form_borrar_mercado {
+    display: flex;
+}
+
+#producto_borrar {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 20px;
+}

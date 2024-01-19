@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+div {
+    margin: 5;
+}
+
+div input {
+
+    margin: 10px;
+    padding: 5px;
+}
